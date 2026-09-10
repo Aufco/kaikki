@@ -1,0 +1,40 @@
+*.db
+*.jsonl
+.env
+__pycache__/
+*.pyc
+gitignore/
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.p12
+*.session
+
+# Generated dependencies, caches, and output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.gradle/
+build/
+dist/
+coverage/
+.dart_tool/
+.flutter-plugins*
+
+# Logs and editor/OS state
+*.log
+Logs/
+logs/
+BucketLogs/
+.idea/
+.vscode/
+.claude/
+.gemini/
+.DS_Store
+Thumbs.db
